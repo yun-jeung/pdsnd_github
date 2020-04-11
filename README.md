@@ -9,12 +9,14 @@ Bicyle-sharing systems have been growing in number and popularity in cities acro
 
 
 ### Files used
-bikeshare.py
-README.md
+Main script: bikeshare.py
+
 data files: chicago.csv, new_york_city.csv, and washington.csv
+
+README.md
 
 ### Credits
 Data from Motivate (https://www.motivateco.com/)
 Udacity Nanodegree Program (https://www.udacity.com/)
-Git Hub documentation
-Python documentation
+Git Hub documentation (https://help.github.com/en)
+Python documentation (https://docs.python.org/3/)

@@ -126,7 +126,7 @@ def time_stats(df):
     print(f"\nThe most popular day is {popular_day}")
 
     # TO DO: display the most common start hour
-    popular_hour = df['Start Time'].dt.hour.mode()[0] # showing 24 hours
+    popular_hour= df['hour'].mode()[0] # showing 24 hours
     #!!! Might be good to show as 12 hours and am/pm #
     print(f"\nThe most popular hour is {popular_hour}")
 

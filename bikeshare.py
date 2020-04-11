@@ -1,4 +1,3 @@
-
 # updated: 16.03.2020
 # This schipt was reviewed again for Udacity project 3, updated 11.04.2020
 
@@ -93,6 +92,7 @@ def load_data(city, month, day):
     # Extract month and day of week from Start Time to create new columns
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
+    df['hour'] = df['Start Time'].dt.hour
 
     # Filter by month
     if month != 'all':
